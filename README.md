@@ -47,3 +47,5 @@ engine.set_patch(random_patch)
 engine.render_patch(40, 127, 4.0, 5.0)
 audio = engine.get_audio_frames()
 ```
+
+Reference: [turian/renderman-dexed-linux](https://github.com/turian/renderman-dexed-linux)
