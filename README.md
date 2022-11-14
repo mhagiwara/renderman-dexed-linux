@@ -39,6 +39,9 @@ xvfb-run python
 Run the following Python code:
 
 ```python
+import librenderman as rm
+
+engine = rm.RenderEngine(44100, 512, 512)
 engine.load_plugin('/your/home/dexed/Builds/Linux/build/Dexed.so', 0)
 print(engine.get_plugin_parameters_description())
 generator = rm.PatchGenerator(engine)
